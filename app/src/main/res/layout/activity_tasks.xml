@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".TasksActivity">
 
     <ListView
         android:id="@+id/taskListView"
@@ -26,7 +26,7 @@
             android:id="@+id/taskEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Dodaj listę zadań"
+            android:hint="Dodaj zadanie"
             android:inputType="text"
             android:layout_marginBottom="8dp" />
 
@@ -34,7 +34,7 @@
             android:id="@+id/addButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Dodaj listę" />
+            android:text="Dodaj zadanie" />
     </LinearLayout>
 
 </RelativeLayout>
